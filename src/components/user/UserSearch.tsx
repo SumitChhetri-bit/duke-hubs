@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../../contexts/AuthContext';
 import { Search } from 'lucide-react';
-import { User } from '../../types';
+import type { User } from '../../types';
 
 const UserSearch: React.FC = () => {
   const [query, setQuery] = useState('');
@@ -56,5 +56,3 @@ const UserSearch: React.FC = () => {
     </div>
   );
 };
-
-export default UserSearch;
