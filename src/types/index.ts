@@ -35,4 +35,3 @@ export interface Post {
     };
   }>;
   createdAt: string;
-}
